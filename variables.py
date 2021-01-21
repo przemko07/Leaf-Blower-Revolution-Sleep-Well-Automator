@@ -10,3 +10,13 @@ max_width_position = 1350
 min_width_position = 500
 central_position = (925,520)
 
+pets_button_position = (570, 308)
+bunny_position = (1095, 422)
+cat_position = (1092, 468)
+deer_position = (1092, 514)
+dog_position = (1094, 558)
+fox_position = (1097, 603)
+monkey_position = (1098, 643)
+
+exotic_BLC_plus_max = (1160, 556)
+exotic_moar_BLC_max = (1162, 603)
