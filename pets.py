@@ -43,3 +43,4 @@ def foxo():
   keyboard.press('x')
   time.sleep(0.1)
   keyboard.release('x')
+

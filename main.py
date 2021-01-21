@@ -17,7 +17,7 @@ while(True):
   prestige()
   print("You now have 20 seconds to stop the program if you want to.")
   time.sleep(20)
-  print("Time's up, don't move the mouse untill further notice.")
+  print("Time's up, don't move the mouse until further notice.")
   to_the_void()
   time.sleep(2)
   buy_void_apples()
@@ -27,12 +27,18 @@ while(True):
   buy_exotic_apples()
   #print(f"You now have {(x/60) +1} minute(s) to stop the program if you want to.")
   start_time = time.time()
+  lawn_blown = 0
+  print("Now preparing to blow the lawn.")
   while(time.time() - start_time < 60 +x):
+    lawn_blown += 1
+    print(f"Don't move the mouse until further notice. Lawn blown {lawn_blown} of {((x + 60) / 30)+1}.")
     blower()
+    print(f"You now have 5 seconds to finish the program (if you want to).")
     time.sleep(5)
   #time.sleep(60 +x)
   x += 60
-  if x/60 > -1:
+  if x/60 > 10:
+    print("Preparing to crunch! It will take aroung a minute.")
     time.sleep(1)
     foxo()
     time.sleep(1)

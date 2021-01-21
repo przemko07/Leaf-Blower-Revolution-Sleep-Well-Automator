@@ -13,17 +13,3 @@ def blower():
         time.sleep(0.1)
 
     iterations += 1
-
-
-# mouse.position = (variables.min_width_position, variables.min_height_position)
-#     time.sleep(0.1)
-#     mouse.position = (variables.max_width_position, variables.min_height_position)
-#     time.sleep(0.1)
-#     mouse.position = (variables.max_width_position, variables.max_height_position)
-#     time.sleep(0.1)
-#     mouse.position = (variables.min_width_position, variables.max_height_position)
-#     time.sleep(0.1)
-#     mouse.position = (variables.min_width_position, variables.min_height_position)
-#     time.sleep(0.1)
-#     mouse.position = variables.central_position
-#     time.sleep(0.1)
